@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.nav__container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    display: flex;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav__link{
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.container{
+    padding: 96px 0;
+}
+
+
+.row{
+    width:100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/*
+LANDING
+*/
+
+#landing{
+    background-image: url("https://images.unsplash.com/photo-1533460004989-cef01064af7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header{
+    height: calc(110vh - 80px);
+}
+
+
+
+
+.header__container{
+    /* padding-top:72px ; */
+    width: 100%;
+    max-width:720px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(71, 216, 38, 0.79);
+    color: white;
+}
+
+#about-us .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_team{
+    background-color:rgba(59, 194, 65, 0.8) ;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    padding: 50px;
+}
+
+.container__meetus{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team__member img{
+    margin: 30px 25px;
+    border: 15px solid white;
+    max-width: 150px;
+    width: 100%;
+    height:100%;
+    max-height: 200px;
+}
+
