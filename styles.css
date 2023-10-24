@@ -15,8 +15,10 @@ p{
 
 a{
     text-decoration: none;
-
+    color: white;
 }
+
+
 
 .nav__container{
     width: 100%;
@@ -82,12 +84,19 @@ header{
 }
 
 
+.header__h2{
+    font-size: 18px;
+}
+
+header h1{
+    font-size: 32px;
+}
 
 
 .header__container{
     /* padding-top:72px ; */
     width: 100%;
-    max-width:720px;
+    max-width:920px;
     margin: 0 auto;
     height: 100%;
     display: flex;
@@ -101,6 +110,7 @@ header{
     align-items: center;
     background-color:rgba(71, 216, 38, 0.79);
     color: white;
+    width: 1000px;
 }
 
 #about-us .row{
@@ -114,12 +124,21 @@ header{
     top: 70px;
     text-align: center;
     padding: 50px;
+
 }
 
 .container__meetus{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+}
+
+#about-us p{
+    width: 100%;
+    max-width: 500px;
+    margin-top: 16px;
+    font-size: 24px;
 }
 
 .team__member img{
@@ -130,4 +149,82 @@ header{
     height:100%;
     max-height: 200px;
 }
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service{
+    /* width: 35%; */
+    padding:16px
+}
+
+.service__img{
+    max-height: 200px;
+}
+
+.service__img--wrapper{
+    margin-bottom: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+}
+
+.services__title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service__title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer{
+    background-color: #242424;
+}
+
+.footer__logo{
+    display: flex;
+    /* margin-right: 20px; */
+    color: white;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+
+
+
+.footer__land{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.footer__list{
+    margin: 20px 0 24px 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link{
+    padding: 0 8px;
+    color: white;
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
 
